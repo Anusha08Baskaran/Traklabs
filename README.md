@@ -106,7 +106,7 @@ UPDATE * FROM employees SET departments.dept_name='Sales';
 
 UPDATE employees SET departments.dept_no=1 WHERE departments.dept_name='Sales';
 
-DELETE FROM employees WHERE departments.dept_no=0;
+DELETE FROM employees WHERE departments.dept_name='Development';
 
 
 
